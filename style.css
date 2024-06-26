@@ -1,0 +1,338 @@
+body{
+    background-color: black;
+}
+
+.lightString{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.circle{
+    
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+.red{
+    background-color: red;
+    border: solid 2px red;
+    box-shadow: 
+    0px 0px 20px 10px red,
+    0px 0px 20px 20px green;   
+ 
+}
+
+.green{
+    background-color: green;
+    border: solid 2px green;
+    box-shadow: 0px 0px 20px 10px greenyellow;
+}
+
+.blue{
+    background-color: blue;
+    border: solid 2px blue;
+    box-shadow: 0px 0px 40px blue;
+}
+
+.white{
+    background-color: white;
+    border: solid 2px white;
+    box-shadow: 0px 0px 20px white;    
+}
+
+.orange{
+    background-color: orange;
+    border: solid 2px orange;
+    box-shadow: 0px 0px 20px orange;    
+}
+
+.yellow{
+    background-color: yellow;
+    border: solid 2px yellow;
+    box-shadow: 0px 0px 20px yellow;    
+}
+
+.indigo{
+    background-color: indigo;
+    border: solid 2px indigo;
+    box-shadow: 0px 0px 20px indigo;    
+}
+
+.violet{
+    background-color: violet;
+    border: solid 2px violet;
+    box-shadow: 0px 0px 20px violet;    
+}
+
+.mercury-ring{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.venus-ring{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.earth-ring{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.mars-ring{
+    height: 400px;
+    width: 400px;
+    border-radius: 400px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.jupiter-ring{
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.saturn-ring{
+    height: 600px;
+    width: 600px;
+    border-radius: 600px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.uranus-ring{
+    height: 700px;
+    width: 700px;
+    border-radius: 700px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.neptune-ring{
+    height: 800px;
+    width: 800px;
+    border-radius: 800px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.pluto-ring{
+    height: 900px;
+    width: 900px;
+    border-radius: 900px;
+    border: solid rgba(255, 255, 255, 0.337) 2px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.mercury{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-mercury;
+    animation-duration:5s;
+    
+}
+@keyframes orbit-mercury{
+    0%{transform:rotate(0deg) 
+    translateY(50px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(50px)
+            rotate(-360deg)
+        }
+        
+}
+
+.venus{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-venus;
+    animation-duration:10s;
+    
+}
+@keyframes orbit-venus{
+    0%{transform:rotate(0deg) 
+    translateY(100px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(100px)
+            rotate(-360deg)
+        }
+        
+}
+
+.earth{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-earth;
+    animation-duration:15s;
+    
+}
+@keyframes orbit-earth{
+    0%{transform:rotate(0deg) 
+    translateY(150px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(150px)
+            rotate(-360deg)
+        }
+        
+}
+
+.mars{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-mars;
+    animation-duration:17s;
+    
+}
+@keyframes orbit-mars{
+    0%{transform:rotate(0deg) 
+    translateY(200px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(200px)
+            rotate(-360deg)
+        }
+        
+}
+
+.jupiter{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-jupiter;
+    animation-duration:19s;
+    
+}
+@keyframes orbit-jupiter{
+    0%{transform:rotate(0deg) 
+    translateY(250px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(250px)
+            rotate(-360deg)
+        }
+        
+}
+
+.saturn{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-saturn;
+    animation-duration:21s;
+    
+}
+@keyframes orbit-saturn{
+    0%{transform:rotate(0deg) 
+    translateY(300px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(300px)
+            rotate(-360deg)
+        }
+        
+}
+
+.uranus{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-uranus;
+    animation-duration:23s;
+    
+}
+@keyframes orbit-uranus{
+    0%{transform:rotate(0deg) 
+    translateY(350px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(350px)
+            rotate(-360deg)
+        }
+        
+}
+
+.neptune{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-neptune;
+    animation-duration:25s;
+    
+}
+@keyframes orbit-neptune{
+    0%{transform:rotate(0deg) 
+    translateY(400px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(400px)
+            rotate(-360deg)
+        }
+        
+}
+
+.pluto{
+    position: absolute;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-name:orbit-pluto;
+    animation-duration:30s;
+    
+}
+@keyframes orbit-pluto{
+    0%{transform:rotate(0deg) 
+    translateY(450px)
+        rotate(0deg)
+    }
+    100%{transform:rotate(360deg) 
+        translateY(450px)
+            rotate(-360deg)
+        }
+        
+}
